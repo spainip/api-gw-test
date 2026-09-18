@@ -1,0 +1,14 @@
+{
+  "name": "api-gw-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small mock API used to exercise Apache APISIX routes and rate limits",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
